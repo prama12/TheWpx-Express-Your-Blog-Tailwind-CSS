@@ -32,804 +32,796 @@
 
     <title>TheWpx-Express Your Blog</title>
     <link rel="stylesheet" href="./output.css" />
+  </head>
+  <body class="bg-primary-gray">
+    <!-- Nabbar Start -->
+    <nav
+      class="container max-w px-2 md:px-20 py-2 md:py-5 flex justify-between items-center"
+    >
+      <!-- Left elements-->
+      <div class="cursor-pointer">
+        <img src="assets/images/thewpx.png" alt="logo" class="md:w-48 w-40" />
+      </div>
 
-    <body class="bg-primary-gray">
-      <!-- Nabbar Start -->
-      <nav
-        class="container max-w px-2 md:px-20 py-2 md:py-5 flex justify-between items-center"
-      >
-        <!-- Left elements-->
-        <div class="cursor-pointer">
-          <img src="assets/images/thewpx.png" alt="logo" class="md:w-48 w-40" />
-        </div>
+      <!-- Menu button -->
+      <div class="co"></div>
 
-        <!-- Menu button -->
-        <div class="co"></div>
+      <!-- Right elements -->
+      <div class="md:flex items-center relative hidden">
+        <ul class="flex items-center gap-3 font-bold text-xl text-primary-blue">
+          <li>
+            <a class="right_nav" href="#">Home</a>
+          </li>
+          <li>
+            <a class="right_nav" href="#">Blogging</a>
+          </li>
+          <li>
+            <a class="right_nav" href="#">WordPress</a>
+          </li>
+          <li>
+            <a class="right_nav" href="#">SEO</a>
+          </li>
+          <li>
+            <a class="right_nav" href="#">Hosting</a>
+          </li>
+          <li>
+            <a class="right_nav" href="#">Deals</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- Navbar end -->
 
-        <!-- Right elements -->
-        <div class="md:flex items-center relative hidden">
-          <ul
-            class="flex items-center gap-3 font-bold text-xl text-primary-blue"
-          >
-            <li>
-              <a class="right_nav" href="#">Home</a>
-            </li>
-            <li>
-              <a class="right_nav" href="#">Blogging</a>
-            </li>
-            <li>
-              <a class="right_nav" href="#">WordPress</a>
-            </li>
-            <li>
-              <a class="right_nav" href="#">SEO</a>
-            </li>
-            <li>
-              <a class="right_nav" href="#">Hosting</a>
-            </li>
-            <li>
-              <a class="right_nav" href="#">Deals</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-      <!-- Navbar end -->
-
-      <!-- Hero section start -->
-      <section
-        class="w-full bg-primary-blue py-16 text-white flex items-center justify-center flex-col"
-      >
-        <div class="max-w">
-          <h1 class="md:text-3xl text-2xl font-bold text-center px-3">
-            You're Just Four Steps Away From Starting Your Blog
-          </h1>
-          <div
-            class="px-5 sm:px-10 py-16 grid lg:grid-cols-4 md:grid-cols-4 grid-cols-2 gap-5 sm:gap-10 items-center justify-center"
-          >
-            <div class="hero_grid">
-              <div>
-                <img src="assets/images/domain.svg" class="w-16" alt="grid" />
-              </div>
-              <div class="">Domain & Hosting</div>
+    <!-- Hero section start -->
+    <section
+      class="w-full bg-primary-blue py-16 text-white flex items-center justify-center flex-col"
+    >
+      <div class="max-w">
+        <h1 class="md:text-3xl text-2xl font-bold text-center px-3">
+          You're Just Four Steps Away From Starting Your Blog
+        </h1>
+        <div
+          class="px-5 sm:px-10 py-16 grid lg:grid-cols-4 md:grid-cols-4 grid-cols-2 gap-5 sm:gap-10 items-center justify-center"
+        >
+          <div class="hero_grid">
+            <div>
+              <img src="assets/images/domain.svg" class="w-16" alt="grid" />
             </div>
-            <div class="hero_grid">
-              <div>
-                <img src="assets/images/wpx-blog.svg" class="w-16" alt="grid" />
-              </div>
-              <div class="">Start a Blog</div>
-            </div>
-            <div class="hero_grid">
-              <div>
-                <img
-                  src="assets/images/speed-optimization.svg"
-                  class="w-16"
-                  alt="grid"
-                />
-              </div>
-              <div class="">Speed Optimization</div>
-            </div>
-            <div class="hero_grid">
-              <div>
-                <img
-                  src="assets/images/rank-blog.svg"
-                  class="w-16"
-                  alt="grid"
-                />
-              </div>
-              <div class="">Rank Your Blog</div>
-            </div>
+            <div class="">Domain & Hosting</div>
           </div>
-          <div class="flex w-full justify-center">
-            <button
-              class="px-4 py-2 text-primary-blue font-bold text-lg bg-primary-gray hover:bg-gray-100 rounded-lg"
-            >
-              See all Categories
+          <div class="hero_grid">
+            <div>
+              <img src="assets/images/wpx-blog.svg" class="w-16" alt="grid" />
+            </div>
+            <div class="">Start a Blog</div>
+          </div>
+          <div class="hero_grid">
+            <div>
+              <img
+                src="assets/images/speed-optimization.svg"
+                class="w-16"
+                alt="grid"
+              />
+            </div>
+            <div class="">Speed Optimization</div>
+          </div>
+          <div class="hero_grid">
+            <div>
+              <img src="assets/images/rank-blog.svg" class="w-16" alt="grid" />
+            </div>
+            <div class="">Rank Your Blog</div>
+          </div>
+        </div>
+        <div class="flex w-full justify-center">
+          <button
+            class="px-4 py-2 text-primary-blue font-bold text-lg bg-primary-gray hover:bg-gray-100 rounded-lg"
+          >
+            See all Categories
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Introduction section -->
+    <div class="grid place-content-centers max-w md:10 lg:px-28 py-10">
+      <section
+        class="md:px-24 px-5 gap-5 md:gap-20 py-10 items-center flex-col flex md:flex-row md:flex"
+      >
+        <img
+          src="./assets/images/sunny.png"
+          class="rounded-full w-[200px] h-[200px]"
+          alt=""
+        />
+        <div class="space-y-5">
+          <h1
+            class="text-primary-blue md:text-left text-center text-[30px] font-bold"
+          >
+            Sunny Kumar, Founder of TheWPX
+          </h1>
+          <p class="md:text-left text-center">
+            Hola Amigos! I'm Sunny Kumar, Founder of TheWPX. A blog where I
+            share my experience which I have gathered from my last 7 year
+            journey in blogging with all the new bloggers struggling to make
+            their first income.
+          </p>
+          <div class="md:place-content-start grid place-content-center">
+            <button class="bg-primary-blue py-3 px-3 rounded-lg text-white">
+              About Me
             </button>
           </div>
         </div>
       </section>
+    </div>
 
-      <!-- Introduction section -->
-      <div class="grid place-content-centers max-w md:10 lg:px-28 py-10">
-        <section
-          class="md:px-24 px-5 gap-5 md:gap-20 py-10 items-center flex-col flex md:flex-row md:flex"
-        >
-          <img
-            src="./assets/images/sunny.png"
-            class="rounded-full w-[200px] h-[200px]"
-            alt=""
-          />
-          <div class="space-y-5">
-            <h1
-              class="text-primary-blue md:text-left text-center text-[30px] font-bold"
-            >
-              Sunny Kumar, Founder of TheWPX
+    <!-- body  -->
+    <section class="bg-gray-100 w-full">
+      <div class="px-2 sm:px-10 py-7 grid lg:grid-cols-12 gap-6 max-w">
+        <!-- cards  -->
+        <div class="w-full col-span-9 flex flex-col gap-5 bg-gray-100">
+          <!-- first card -->
+          <div class="card_main">
+            <h1 class="text-black font-bold text-2xl">
+              SEMrush Free Trial 2022 | Get SEMrush PRO and GURU for FREE
             </h1>
-            <p class="md:text-left text-center">
-              Hola Amigos! I'm Sunny Kumar, Founder of TheWPX. A blog where I
-              share my experience which I have gathered from my last 7 year
-              journey in blogging with all the new bloggers struggling to make
-              their first income.
-            </p>
-            <div class="md:place-content-start grid place-content-center">
-              <button class="bg-primary-blue py-3 px-3 rounded-lg text-white">
-                About Me
+            <div class="text-sm text-gray-700 mb-5">
+              <span><i class="fa-regular fa-clock"></i></span>
+              <span class="">Updated : </span>
+              <span class="">January 22, 2022</span>
+              <span class="">
+                by
+                <span class=""> Sunny Kumar</span>
+              </span>
+            </div>
+            <div class="card">
+              <div class="card_img">
+                <img
+                  class="w-full"
+                  src="assets/images/semrush-free-trial-1-350x160.jpg"
+                />
+              </div>
+              <div class="w-full">
+                <p class="font-medium text-lg w-full">
+                  Are you looking for the SEMrush free trial to save on guru and
+                  pro subscriptions and skyrocket your website presence in
+                  Google? I know everyone wants to get on the first page of
+                  Google and if you’re the one looking to grab SEMrush for
+                  increasing your website performance, then you’re on the right
+                  …
+                </p>
+              </div>
+            </div>
+            <div class="">
+              <button
+                class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
+              >
+                Read More
               </button>
             </div>
           </div>
-        </section>
-      </div>
 
-      <!-- body  -->
-      <section class="bg-gray-100 w-full">
-        <div class="px-2 sm:px-10 py-7 grid lg:grid-cols-12 gap-6 max-w">
-          <!-- cards  -->
-          <div class="w-full col-span-9 flex flex-col gap-5 bg-gray-100">
-            <!-- first card -->
-            <div class="card_main">
-              <h1 class="text-black font-bold text-2xl">
-                SEMrush Free Trial 2022 | Get SEMrush PRO and GURU for FREE
-              </h1>
-              <div class="text-sm text-gray-700 mb-5">
-                <span><i class="fa-regular fa-clock"></i></span>
-                <span class="">Updated : </span>
-                <span class="">January 22, 2022</span>
-                <span class="">
-                  by
-                  <span class=""> Sunny Kumar</span>
-                </span>
+          <!-- second card -->
+          <div class="card_main">
+            <h1 class="text-black font-bold text-2xl">
+              How to Embed Spotify Playlist in WordPress (Step-by-Step Guide) in
+              2022
+            </h1>
+            <div class="text-sm text-gray-700 mb-5">
+              <span><i class="fa-regular fa-clock"></i></span>
+              <span class="">Updated : </span>
+              <span class="">May 23, 2022</span>
+              <span class="">
+                by
+                <span class=""> Sunny Kumar</span>
+              </span>
+            </div>
+            <div class="card">
+              <div class="card_img">
+                <img
+                  class="w-full"
+                  src="assets/images/embed-spotify-playlist-350x160.png"
+                />
               </div>
-              <div class="card">
-                <div class="card_img">
-                  <img
-                    class="w-full"
-                    src="assets/images/semrush-free-trial-1-350x160.jpg"
-                  />
-                </div>
-                <div class="w-full">
-                  <p class="font-medium text-lg w-full">
-                    Are you looking for the SEMrush free trial to save on guru
-                    and pro subscriptions and skyrocket your website presence in
-                    Google? I know everyone wants to get on the first page of
-                    Google and if you’re the one looking to grab SEMrush for
-                    increasing your website performance, then you’re on the
-                    right …
-                  </p>
-                </div>
-              </div>
-              <div class="">
-                <button
-                  class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
-                >
-                  Read More
-                </button>
+              <div class="col-span-8">
+                <p class="font-medium text-lg">
+                  Are you looking to embed a Spotify playlist in your WordPress
+                  blog? If yes, then you’ve come to the right place. Spotify is
+                  one of the most widely used and popular music streaming
+                  platforms (with over 180 million active users per day). Not
+                  only does it allow users to stream music, but it …
+                </p>
               </div>
             </div>
-
-            <!-- second card -->
-            <div class="card_main">
-              <h1 class="text-black font-bold text-2xl">
-                How to Embed Spotify Playlist in WordPress (Step-by-Step Guide)
-                in 2022
-              </h1>
-              <div class="text-sm text-gray-700 mb-5">
-                <span><i class="fa-regular fa-clock"></i></span>
-                <span class="">Updated : </span>
-                <span class="">May 23, 2022</span>
-                <span class="">
-                  by
-                  <span class=""> Sunny Kumar</span>
-                </span>
-              </div>
-              <div class="card">
-                <div class="card_img">
-                  <img
-                    class="w-full"
-                    src="assets/images/embed-spotify-playlist-350x160.png"
-                  />
-                </div>
-                <div class="col-span-8">
-                  <p class="font-medium text-lg">
-                    Are you looking to embed a Spotify playlist in your
-                    WordPress blog? If yes, then you’ve come to the right place.
-                    Spotify is one of the most widely used and popular music
-                    streaming platforms (with over 180 million active users per
-                    day). Not only does it allow users to stream music, but it …
-                  </p>
-                </div>
-              </div>
-              <div class="">
-                <button
-                  class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
-                >
-                  Read More
-                </button>
-              </div>
-            </div>
-
-            <!-- Third card -->
-            <div class="card_main">
-              <h1 class="text-black font-bold text-2xl">
-                How to Change Your WordPress Username (Step by Step Guide)
-              </h1>
-              <div class="text-sm text-gray-700 mb-5">
-                <span><i class="fa-regular fa-clock"></i></span>
-                <span class="">Updated : </span>
-                <span class="">May 15, 2022</span>
-                <span class="">
-                  by
-                  <span class=""> Sunny Kumar</span>
-                </span>
-              </div>
-              <div class="card">
-                <div class="card_img">
-                  <img
-                    class="w-full"
-                    src="assets/images/change-wordpress-username-350x160.png"
-                  />
-                </div>
-                <div class="col-span-8">
-                  <p class="font-medium text-lg">
-                    Are you looking to change your WordPress username but don’t
-                    know how? I know how confusing it can be when you’re first
-                    starting out with WordPress. There’s so much to learn and
-                    remember! But don’t worry, I’m here to help. If you want to
-                    change your WordPress username, it is not the same …
-                  </p>
-                </div>
-              </div>
-              <div class="">
-                <button
-                  class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
-                >
-                  Read More
-                </button>
-              </div>
-            </div>
-
-            <!-- fourth card  -->
-            <div class="card_main">
-              <h1 class="text-black font-bold text-2xl">
-                How to Change Font Color in WordPress (Quick Ways)
-              </h1>
-              <div class="text-sm text-gray-700 mb-5">
-                <span><i class="fa-regular fa-clock"></i></span>
-                <span class="">Updated : </span>
-                <span class="">May 15, 2022</span>
-                <span class="">
-                  by
-                  <span class=""> Sunny Kumar</span>
-                </span>
-              </div>
-              <div class="card">
-                <div class="card_img">
-                  <img
-                    class="w-full"
-                    src="assets/images/change-font-color-in-wordpress-350x160.png"
-                    alt="change font color in wordpress, change font color wordpress, how to change font color in wordpress, how to change menu text color in wordpress, how to change text color in wordpress, wordpress change font color"
-                    title="How to Change Font Color in WordPress (Quick Ways) 4"
-                  />
-                </div>
-                <div class="col-span-8">
-                  <p class="font-medium text-lg">
-                    Are you looking to change the font color in WordPress? If
-                    yes, continue reading this article. It is one of the common
-                    questions asked by WordPress users, especially beginners who
-                    are just starting out with WordPress. Whether you want to
-                    change a single word, a complete sentence, or whole
-                    WordPress site font, all …
-                  </p>
-                </div>
-              </div>
-              <div class="">
-                <button
-                  class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
-                >
-                  Read More
-                </button>
-              </div>
-            </div>
-
-            <!-- fifth card -->
-            <div class="card_main">
-              <h1 class="text-black font-bold text-2xl">
-                ThemeIsle Discount Code & Review 2022 – Pricing, Pros, Cons, and
-                Comparison
-              </h1>
-              <div class="text-sm text-gray-700 mb-5">
-                <span><i class="fa-regular fa-clock"></i></span>
-                <span class="">Updated : </span>
-                <span class="">May 12, 2022</span>
-                <span class="">
-                  by
-                  <span class=""> Sunny Kumar</span>
-                </span>
-              </div>
-              <div class="card">
-                <div class="card_img">
-                  <img
-                    class="w-full"
-                    src="assets/images/themeisle-review-350x160.png"
-                    alt="neve theme, themeisle comparison, themeisle competitors, themeisle discount code, themeisle review"
-                    title="ThemeIsle Discount Code & Review 2022 - Pricing, Pros, Cons, and Comparison 5"
-                  />
-                </div>
-                <div class="col-span-8">
-                  <p class="font-medium text-lg">
-                    Are you looking for themeisle reviews and discount codes
-                    before you make your purchase from themeisle? I can say
-                    without a doubt that Themeisle is one of the largest
-                    marketplaces for WordPress themes and plugins, and the
-                    company has some of the most popular themes such as Neve and
-                    Hestia Pro. There are …
-                  </p>
-                </div>
-              </div>
-              <div class="">
-                <button
-                  class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
-                >
-                  Read More
-                </button>
-              </div>
-            </div>
-
-            <!-- sixth card -->
-            <div class="card_main">
-              <h1 class="text-black font-bold text-2xl">
-                How to Remove Dates from WordPress Posts (Quick Ways)
-              </h1>
-              <div class="text-sm text-gray-700 mb-5">
-                <span><i class="fa-regular fa-clock"></i></span>
-                <span class="">Updated : </span>
-                <span class="">april 21, 2022</span>
-                <span class="">
-                  by
-                  <span class=""> Sunny Kumar</span>
-                </span>
-              </div>
-              <div class="card">
-                <div class="card_img">
-                  <img
-                    class="w-full"
-                    src="assets/images/remove-date-from-wordpress-350x160.png"
-                    alt="how to remove date from wordpress, remove date author from wordpress, remove date from wordpress, remove date from wordpress css, remove date from wordpress page, remove date from wordpress post"
-                    title="How to Remove Dates from WordPress Posts (Quick Ways) 6"
-                  />
-                </div>
-                <div class="col-span-8">
-                  <p class="font-medium text-lg">
-                    Are you looking to remove dates from your WordPress posts
-                    but you’re not sure how to do it? Whenever we write and
-                    publish a post on our website, a timestamp is created for
-                    the post. This shows Google and other search engines when
-                    the post was created and what date it was last …
-                  </p>
-                </div>
-              </div>
-              <div class="">
-                <button
-                  class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
-                >
-                  Read More
-                </button>
-              </div>
-            </div>
-
-            <!-- seventh card -->
-            <div class="card_main">
-              <h1 class="text-black font-bold text-2xl">
-                How to Add GIFs to WordPress (Quick Ways)
-              </h1>
-              <div class="text-sm text-gray-700 mb-5">
-                <span><i class="fa-regular fa-clock"></i></span>
-                <span class="">Updated : </span>
-                <span class="">April 16, 2022</span>
-                <span class="">
-                  by
-                  <span class=""> Sunny Kumar</span>
-                </span>
-              </div>
-              <div class="card">
-                <div class="card_img">
-                  <img
-                    class="w-full"
-                    src="assets/images/add-gifs-in-wordpress-350x160.png"
-                    alt="add gif to wordpress, gif on wordpress, how to add gif to wordpress, how to add gifs to wordpress, themeisle discount code, themeisle review"
-                    title="How to Add GIFs to WordPress (Quick Ways) 7"
-                  />
-                </div>
-                <div class="col-span-8">
-                  <p class="font-medium text-lg">
-                    Are you looking to add GIFs to your WordPress blog? If yes,
-                    you should continue reading this article. In today’s guide,
-                    I will guide you on how you can add GIFs to WordPress posts
-                    or pages. With the rising popularity of emojis and pictures,
-                    GIFs are becoming increasingly popular all over the
-                    internet. …
-                  </p>
-                </div>
-              </div>
-              <div class="">
-                <button
-                  class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
-                >
-                  Read More
-                </button>
-              </div>
-            </div>
-
-            <!-- eighth card -->
-            <div class="card_main">
-              <h1 class="text-black font-bold text-2xl">
-                How to Increase Memory Limit in WordPress (Quick Ways)
-              </h1>
-              <div class="text-sm text-gray-700 mb-5">
-                <span><i class="fa-regular fa-clock"></i></span>
-                <span class="">Updated : </span>
-                <span class="">April 13, 2022</span>
-                <span class="">
-                  by
-                  <span class=""> Sunny Kumar</span>
-                </span>
-              </div>
-              <div class="card">
-                <div class="card_img">
-                  <img
-                    class="w-full"
-                    src="assets/images/increase-memory-limit-in-wordpress-350x160.png"
-                    alt="increase php memory limit wordpress, increase wordpress limit, increase wordpress memory limit, increase wp memory limit, php memory limit wordpress, wordpress memory limit, wp config memory limit"
-                    title="How to Increase Memory Limit in WordPress (Quick Ways) 10"
-                  />
-                </div>
-                <div class="col-span-8">
-                  <p class="font-medium text-lg">
-                    Are you looking to increase your memory limit in WordPress?
-                    If yes, then you landed in the right place. This guide is
-                    specially created for those WordPress users who want to
-                    increase their WordPress memory limit without breaking their
-                    site. WordPress is a flexible CMS platform that allows users
-                    to use a wide …
-                  </p>
-                </div>
-              </div>
-              <div class="">
-                <button
-                  class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
-                >
-                  Read More
-                </button>
-              </div>
-            </div>
-
-            <div
-              class="flex flex-wrap gap-1 items-center text-sm font-medium justify-center py-10 bg-white"
-            >
-              <div
-                class="w-8 h-8 flex justify-center items-center bg-gray-200 rounded-full"
+            <div class="">
+              <button
+                class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
               >
-                1
-              </div>
-              <div
-                class="w-8 h-8 flex justify-center items-center bg-gray-200 rounded-full"
-              >
-                2
-              </div>
-              <div
-                class="w-8 h-8 flex justify-center items-center bg-gray-200 rounded-full"
-              >
-                ...
-              </div>
-              <div
-                class="w-8 h-8 flex justify-center items-center bg-gray-200 rounded-full"
-              >
-                9
-              </div>
-              <div class="px-3 py-1 bg-gray-200">Next</div>
+                Read More
+              </button>
             </div>
           </div>
-        </div>
-      </section>
 
-      <!-- footer -->
-      <div class="md:px-32 px-5 bg-[#e7f2f7] py-10">
-        <footer class="max-w">
+          <!-- Third card -->
+          <div class="card_main">
+            <h1 class="text-black font-bold text-2xl">
+              How to Change Your WordPress Username (Step by Step Guide)
+            </h1>
+            <div class="text-sm text-gray-700 mb-5">
+              <span><i class="fa-regular fa-clock"></i></span>
+              <span class="">Updated : </span>
+              <span class="">May 15, 2022</span>
+              <span class="">
+                by
+                <span class=""> Sunny Kumar</span>
+              </span>
+            </div>
+            <div class="card">
+              <div class="card_img">
+                <img
+                  class="w-full"
+                  src="assets/images/change-wordpress-username-350x160.png"
+                />
+              </div>
+              <div class="col-span-8">
+                <p class="font-medium text-lg">
+                  Are you looking to change your WordPress username but don’t
+                  know how? I know how confusing it can be when you’re first
+                  starting out with WordPress. There’s so much to learn and
+                  remember! But don’t worry, I’m here to help. If you want to
+                  change your WordPress username, it is not the same …
+                </p>
+              </div>
+            </div>
+            <div class="">
+              <button
+                class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+
+          <!-- fourth card  -->
+          <div class="card_main">
+            <h1 class="text-black font-bold text-2xl">
+              How to Change Font Color in WordPress (Quick Ways)
+            </h1>
+            <div class="text-sm text-gray-700 mb-5">
+              <span><i class="fa-regular fa-clock"></i></span>
+              <span class="">Updated : </span>
+              <span class="">May 15, 2022</span>
+              <span class="">
+                by
+                <span class=""> Sunny Kumar</span>
+              </span>
+            </div>
+            <div class="card">
+              <div class="card_img">
+                <img
+                  class="w-full"
+                  src="assets/images/change-font-color-in-wordpress-350x160.png"
+                  alt="change font color in wordpress, change font color wordpress, how to change font color in wordpress, how to change menu text color in wordpress, how to change text color in wordpress, wordpress change font color"
+                  title="How to Change Font Color in WordPress (Quick Ways) 4"
+                />
+              </div>
+              <div class="col-span-8">
+                <p class="font-medium text-lg">
+                  Are you looking to change the font color in WordPress? If yes,
+                  continue reading this article. It is one of the common
+                  questions asked by WordPress users, especially beginners who
+                  are just starting out with WordPress. Whether you want to
+                  change a single word, a complete sentence, or whole WordPress
+                  site font, all …
+                </p>
+              </div>
+            </div>
+            <div class="">
+              <button
+                class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+
+          <!-- fifth card -->
+          <div class="card_main">
+            <h1 class="text-black font-bold text-2xl">
+              ThemeIsle Discount Code & Review 2022 – Pricing, Pros, Cons, and
+              Comparison
+            </h1>
+            <div class="text-sm text-gray-700 mb-5">
+              <span><i class="fa-regular fa-clock"></i></span>
+              <span class="">Updated : </span>
+              <span class="">May 12, 2022</span>
+              <span class="">
+                by
+                <span class=""> Sunny Kumar</span>
+              </span>
+            </div>
+            <div class="card">
+              <div class="card_img">
+                <img
+                  class="w-full"
+                  src="assets/images/themeisle-review-350x160.png"
+                  alt="neve theme, themeisle comparison, themeisle competitors, themeisle discount code, themeisle review"
+                  title="ThemeIsle Discount Code & Review 2022 - Pricing, Pros, Cons, and Comparison 5"
+                />
+              </div>
+              <div class="col-span-8">
+                <p class="font-medium text-lg">
+                  Are you looking for themeisle reviews and discount codes
+                  before you make your purchase from themeisle? I can say
+                  without a doubt that Themeisle is one of the largest
+                  marketplaces for WordPress themes and plugins, and the company
+                  has some of the most popular themes such as Neve and Hestia
+                  Pro. There are …
+                </p>
+              </div>
+            </div>
+            <div class="">
+              <button
+                class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+
+          <!-- sixth card -->
+          <div class="card_main">
+            <h1 class="text-black font-bold text-2xl">
+              How to Remove Dates from WordPress Posts (Quick Ways)
+            </h1>
+            <div class="text-sm text-gray-700 mb-5">
+              <span><i class="fa-regular fa-clock"></i></span>
+              <span class="">Updated : </span>
+              <span class="">april 21, 2022</span>
+              <span class="">
+                by
+                <span class=""> Sunny Kumar</span>
+              </span>
+            </div>
+            <div class="card">
+              <div class="card_img">
+                <img
+                  class="w-full"
+                  src="assets/images/remove-date-from-wordpress-350x160.png"
+                  alt="how to remove date from wordpress, remove date author from wordpress, remove date from wordpress, remove date from wordpress css, remove date from wordpress page, remove date from wordpress post"
+                  title="How to Remove Dates from WordPress Posts (Quick Ways) 6"
+                />
+              </div>
+              <div class="col-span-8">
+                <p class="font-medium text-lg">
+                  Are you looking to remove dates from your WordPress posts but
+                  you’re not sure how to do it? Whenever we write and publish a
+                  post on our website, a timestamp is created for the post. This
+                  shows Google and other search engines when the post was
+                  created and what date it was last …
+                </p>
+              </div>
+            </div>
+            <div class="">
+              <button
+                class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+
+          <!-- seventh card -->
+          <div class="card_main">
+            <h1 class="text-black font-bold text-2xl">
+              How to Add GIFs to WordPress (Quick Ways)
+            </h1>
+            <div class="text-sm text-gray-700 mb-5">
+              <span><i class="fa-regular fa-clock"></i></span>
+              <span class="">Updated : </span>
+              <span class="">April 16, 2022</span>
+              <span class="">
+                by
+                <span class=""> Sunny Kumar</span>
+              </span>
+            </div>
+            <div class="card">
+              <div class="card_img">
+                <img
+                  class="w-full"
+                  src="assets/images/add-gifs-in-wordpress-350x160.png"
+                  alt="add gif to wordpress, gif on wordpress, how to add gif to wordpress, how to add gifs to wordpress, themeisle discount code, themeisle review"
+                  title="How to Add GIFs to WordPress (Quick Ways) 7"
+                />
+              </div>
+              <div class="col-span-8">
+                <p class="font-medium text-lg">
+                  Are you looking to add GIFs to your WordPress blog? If yes,
+                  you should continue reading this article. In today’s guide, I
+                  will guide you on how you can add GIFs to WordPress posts or
+                  pages. With the rising popularity of emojis and pictures, GIFs
+                  are becoming increasingly popular all over the internet. …
+                </p>
+              </div>
+            </div>
+            <div class="">
+              <button
+                class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+
+          <!-- eighth card -->
+          <div class="card_main">
+            <h1 class="text-black font-bold text-2xl">
+              How to Increase Memory Limit in WordPress (Quick Ways)
+            </h1>
+            <div class="text-sm text-gray-700 mb-5">
+              <span><i class="fa-regular fa-clock"></i></span>
+              <span class="">Updated : </span>
+              <span class="">April 13, 2022</span>
+              <span class="">
+                by
+                <span class=""> Sunny Kumar</span>
+              </span>
+            </div>
+            <div class="card">
+              <div class="card_img">
+                <img
+                  class="w-full"
+                  src="assets/images/increase-memory-limit-in-wordpress-350x160.png"
+                  alt="increase php memory limit wordpress, increase wordpress limit, increase wordpress memory limit, increase wp memory limit, php memory limit wordpress, wordpress memory limit, wp config memory limit"
+                  title="How to Increase Memory Limit in WordPress (Quick Ways) 10"
+                />
+              </div>
+              <div class="col-span-8">
+                <p class="font-medium text-lg">
+                  Are you looking to increase your memory limit in WordPress? If
+                  yes, then you landed in the right place. This guide is
+                  specially created for those WordPress users who want to
+                  increase their WordPress memory limit without breaking their
+                  site. WordPress is a flexible CMS platform that allows users
+                  to use a wide …
+                </p>
+              </div>
+            </div>
+            <div class="">
+              <button
+                class="bg-primary-blue text-sm font-bold text-white px-7 py-2 mt-10 bg-w w-full md:w-48"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+
           <div
-            class="grid text-[#233c65] items-center md:grid-cols-2 xl:grid-cols-3 gap-5 md:gap-20 place-content-center"
+            class="flex flex-wrap gap-1 items-center text-sm font-medium justify-center py-10 bg-white"
           >
-            <!-- first columns -->
-            <div class="">
-              <img src="./assets/images/thewpx.png" class="w-[200px]" alt="" />
-              <p class="text-lg mt-3">
-                TheWPX is a blog where we cover topics related to Blogging,
-                WordPress, SEO, and Affiliate Marketing.
-              </p>
-              <a href="#" class="text-lg">Read More</a>
-              <div class="flex gap-3 items-center mt-5">
-                <!-- facebook -->
-                <a href="" class="bg-[#233c65] rounded-lg p-1">
-                  <svg
-                    class="h-8 w-8"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    role="img"
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 20 20"
-                  >
-                    <path
-                      fill="white"
-                      d="M8.46 18h2.93v-7.3h2.45l.37-2.84h-2.82V6.04c0-.82.23-1.38 1.41-1.38h1.51V2.11c-.26-.03-1.15-.11-2.19-.11c-2.18 0-3.66 1.33-3.66 3.76v2.1H6v2.84h2.46V18z"
-                    />
-                  </svg>
-                </a>
-                <!-- twitter -->
-                <a href="" class="bg-[#233c65] rounded-lg p-1">
-                  <svg
-                    class="h-8 w-8"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    role="img"
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="white"
-                      d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 0 0 2.048-2.578a9.3 9.3 0 0 1-2.958 1.13a4.66 4.66 0 0 0-7.938 4.25a13.229 13.229 0 0 1-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 0 0 3.96 9.824a4.647 4.647 0 0 1-2.11-.583v.06a4.66 4.66 0 0 0 3.737 4.568a4.692 4.692 0 0 1-2.104.08a4.661 4.661 0 0 0 4.352 3.234a9.348 9.348 0 0 1-5.786 1.995a9.5 9.5 0 0 1-1.112-.065a13.175 13.175 0 0 0 7.14 2.093c8.57 0 13.255-7.098 13.255-13.254c0-.2-.005-.402-.014-.602a9.47 9.47 0 0 0 2.323-2.41l.002-.003Z"
-                    />
-                  </svg>
-                </a>
-                <!-- pintrest -->
-                <a href="" class="bg-[#233c65] rounded-lg p-1">
-                  <svg
-                    class="h-8 w-8"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    role="img"
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="white"
-                      d="M0 12c0 5.123 3.211 9.497 7.73 11.218c-.11-.937-.227-2.482.025-3.566c.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9c1.02 0 1.512.765 1.512 1.682c0 1.025-.653 2.557-.99 3.978c-.281 1.189.597 2.159 1.769 2.159c2.123 0 3.756-2.239 3.756-5.471c0-2.861-2.056-4.86-4.991-4.86c-3.398 0-5.393 2.549-5.393 5.184c0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355c-.053.218-.173.265-.4.159c-1.492-.694-2.424-2.875-2.424-4.627c0-3.769 2.737-7.229 7.892-7.229c4.144 0 7.365 2.953 7.365 6.899c0 4.117-2.595 7.431-6.199 7.431c-1.211 0-2.348-.63-2.738-1.373c0 0-.599 2.282-.744 2.84c-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0S0 5.373 0 12Z"
-                    />
-                  </svg>
-                </a>
-                <!-- linkedin -->
-                <a href="" class="bg-[#233c65] rounded-lg p-1">
-                  <svg
-                    class="h-8 w-8"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    height="1em"
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="white"
-                      fill-rule="evenodd"
-                      d="M1 2.838A1.838 1.838 0 0 1 2.838 1H21.16A1.837 1.837 0 0 1 23 2.838V21.16A1.838 1.838 0 0 1 21.161 23H2.838A1.838 1.838 0 0 1 1 21.161V2.838Zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634c3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8c-1.515 0-2.145 1.089-2.145 2.8v5.106H9.708V9.388Zm-5.5 10.403h3.208V9.25H4.208v10.54ZM7.875 5.812a2.063 2.063 0 1 1-4.125 0a2.063 2.063 0 0 1 4.125 0Z"
-                      clip-rule="evenodd"
-                    />
-                  </svg>
-                </a>
-                <!-- youtube -->
-                <a href="" class="bg-[#233c65] rounded-lg p-1">
-                  <svg
-                    class="h-8 w-8"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    role="img"
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 1536 1792"
-                  >
-                    <path
-                      fill="white"
-                      d="M971 1244v211q0 67-39 67q-23 0-45-22v-301q22-22 45-22q39 0 39 67zm338 1v46h-90v-46q0-68 45-68t45 68zm-966-218h107v-94H138v94h105v569h100v-569zm288 569h89v-494h-89v378q-30 42-57 42q-18 0-21-21q-1-3-1-35v-364h-89v391q0 49 8 73q12 37 58 37q48 0 102-61v54zm429-148v-197q0-73-9-99q-17-56-71-56q-50 0-93 54V933h-89v663h89v-48q45 55 93 55q54 0 71-55q9-27 9-100zm338-10v-13h-91q0 51-2 61q-7 36-40 36q-46 0-46-69v-87h179v-103q0-79-27-116q-39-51-106-51q-68 0-107 51q-28 37-28 116v173q0 79 29 116q39 51 108 51q72 0 108-53q18-27 21-54q2-9 2-58zM790 525V315q0-69-43-69t-43 69v210q0 70 43 70t43-70zm719 751q0 234-26 350q-14 59-58 99t-102 46q-184 21-555 21t-555-21q-58-6-102.5-46T53 1626q-26-112-26-350q0-234 26-350q14-59 58-99t103-47q183-20 554-20t555 20q58 7 102.5 47t57.5 99q26 112 26 350zM511 0h102L492 399v271H392V399q-14-74-61-212Q294 84 266 0h106l71 263zm370 333v175q0 81-28 118q-38 51-106 51q-67 0-105-51q-28-38-28-118V333q0-80 28-117q38-51 105-51q68 0 106 51q28 37 28 117zm335-162v499h-91v-55q-53 62-103 62q-46 0-59-37q-8-24-8-75V171h91v367q0 33 1 35q3 22 21 22q27 0 57-43V171h91z"
-                    />
-                  </svg>
-                </a>
-              </div>
+            <div
+              class="w-8 h-8 flex justify-center items-center bg-gray-200 rounded-full"
+            >
+              1
             </div>
-            <!-- second columns -->
-            <div class="">
-              <h1 class="font-bold text-[22px]">BLOGGING DEALS</h1>
-              <div class="mt-5 flex flex-col space-y-4">
-                <!-- SEMrush Free Trial -->
-                <a href="" class="inline-flex items-center gap-1">
-                  <svg
-                    class="h-5 w-5"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    role="img"
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="black"
-                      d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
-                    />
-                    <path
-                      fill="black"
-                      d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
-                    />
-                  </svg>
-                  <p class="text-lg">SEMrush Free Trial</p>
-                </a>
-                <!-- Divi Discount Code -->
-                <a href="" class="inline-flex items-center gap-1">
-                  <svg
-                    class="h-5 w-5"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    role="img"
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="black"
-                      d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
-                    />
-                    <path
-                      fill="black"
-                      d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
-                    />
-                  </svg>
-                  <p class="text-lg">Divi Discount Code</p>
-                </a>
-                <!-- LinkWhisper Discount -->
-                <a href="" class="inline-flex items-center gap-1">
-                  <svg
-                    class="h-5 w-5"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    role="img"
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="black"
-                      d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
-                    />
-                    <path
-                      fill="black"
-                      d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
-                    />
-                  </svg>
-                  <p class="text-lg">LinkWhisper Discount</p>
-                </a>
-                <!-- KWFinder Discount -->
-                <a href="" class="inline-flex items-center gap-1">
-                  <svg
-                    class="h-5 w-5"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    role="img"
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="black"
-                      d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
-                    />
-                    <path
-                      fill="black"
-                      d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
-                    />
-                  </svg>
-                  <p class="text-lg">KWFinder Discount</p>
-                </a>
-              </div>
+            <div
+              class="w-8 h-8 flex justify-center items-center bg-gray-200 rounded-full"
+            >
+              2
             </div>
-            <!-- third columns -->
-
-            <div class="">
-              <h1 class="font-bold text-[22px]">NAVIGATE</h1>
-              <div class="mt-5 flex flex-col space-y-4">
-                <!-- about us -->
-                <a href="" class="inline-flex items-center gap-1">
-                  <svg
-                    class="h-5 w-5"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    role="img"
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="black"
-                      d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
-                    />
-                    <path
-                      fill="black"
-                      d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
-                    />
-                  </svg>
-                  <p class="text-lg">About Us</p>
-                </a>
-                <!-- write for us -->
-                <a href="" class="flex items-center gap-1">
-                  <svg
-                    class="h-5 w-5"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    role="img"
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="black"
-                      d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
-                    />
-                    <path
-                      fill="black"
-                      d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
-                    />
-                  </svg>
-                  <p class="text-lg">AI Story Generator</p>
-                </a>
-                <!-- AI story generator -->
-                <a href="" class="inline-flex items-center gap-1">
-                  <svg
-                    class="h-5 w-5"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    role="img"
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="black"
-                      d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
-                    />
-                    <path
-                      fill="black"
-                      d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
-                    />
-                  </svg>
-                  <p class="text-lg">AI Story Generator</p>
-                </a>
-                <!--join facebook group -->
-                <a href="" class="inline-flex items-center gap-1">
-                  <svg
-                    class="h-5 w-5"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                    role="img"
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      fill="black"
-                      d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
-                    />
-                    <path
-                      fill="black"
-                      d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
-                    />
-                  </svg>
-                  <p class="text-lg">Join Facebook Group</p>
-                </a>
-              </div>
+            <div
+              class="w-8 h-8 flex justify-center items-center bg-gray-200 rounded-full"
+            >
+              ...
             </div>
-          </div>
-        </footer>
-      </div>
-      <!-- copyright -->
-      <section class="bg-[#233c65] text-white">
-        <div
-          class="max-w py-2 md:text-lg text-base md:px-32 gap-2 px-5 flex-col-reverse items-center md:flex-row flex md:flex justify-between"
-        >
-          <p class="text-lg text-center">
-            Copyright © 2022 TheWPX | All Rights Reserved.
-          </p>
-          <div class="flex flex-wrap gap-2 items-start">
-            <a href="" class="text-lg">Disclosure</a>
-            <p>|</p>
-            <a href="" class="text-lg">Privacy Policy</a>
-            <p>|</p>
-            <a href="" class="text-lg">Sitemap</a>
+            <div
+              class="w-8 h-8 flex justify-center items-center bg-gray-200 rounded-full"
+            >
+              9
+            </div>
+            <div class="px-3 py-1 bg-gray-200">Next</div>
           </div>
         </div>
-      </section>
-    </body>
-  </head>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <div class="md:px-32 px-5 bg-[#e7f2f7] py-10">
+      <footer class="max-w">
+        <div
+          class="grid text-[#233c65] items-center md:grid-cols-2 xl:grid-cols-3 gap-5 md:gap-20 place-content-center"
+        >
+          <!-- first columns -->
+          <div class="">
+            <img src="./assets/images/thewpx.png" class="w-[200px]" alt="" />
+            <p class="text-lg mt-3">
+              TheWPX is a blog where we cover topics related to Blogging,
+              WordPress, SEO, and Affiliate Marketing.
+            </p>
+            <a href="#" class="text-lg">Read More</a>
+            <div class="flex gap-3 items-center mt-5">
+              <!-- facebook -->
+              <a href="" class="bg-[#233c65] rounded-lg p-1">
+                <svg
+                  class="h-8 w-8"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 20 20"
+                >
+                  <path
+                    fill="white"
+                    d="M8.46 18h2.93v-7.3h2.45l.37-2.84h-2.82V6.04c0-.82.23-1.38 1.41-1.38h1.51V2.11c-.26-.03-1.15-.11-2.19-.11c-2.18 0-3.66 1.33-3.66 3.76v2.1H6v2.84h2.46V18z"
+                  />
+                </svg>
+              </a>
+              <!-- twitter -->
+              <a href="" class="bg-[#233c65] rounded-lg p-1">
+                <svg
+                  class="h-8 w-8"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="white"
+                    d="M23.643 4.937c-.835.37-1.732.62-2.675.733a4.67 4.67 0 0 0 2.048-2.578a9.3 9.3 0 0 1-2.958 1.13a4.66 4.66 0 0 0-7.938 4.25a13.229 13.229 0 0 1-9.602-4.868c-.4.69-.63 1.49-.63 2.342A4.66 4.66 0 0 0 3.96 9.824a4.647 4.647 0 0 1-2.11-.583v.06a4.66 4.66 0 0 0 3.737 4.568a4.692 4.692 0 0 1-2.104.08a4.661 4.661 0 0 0 4.352 3.234a9.348 9.348 0 0 1-5.786 1.995a9.5 9.5 0 0 1-1.112-.065a13.175 13.175 0 0 0 7.14 2.093c8.57 0 13.255-7.098 13.255-13.254c0-.2-.005-.402-.014-.602a9.47 9.47 0 0 0 2.323-2.41l.002-.003Z"
+                  />
+                </svg>
+              </a>
+              <!-- pintrest -->
+              <a href="" class="bg-[#233c65] rounded-lg p-1">
+                <svg
+                  class="h-8 w-8"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="white"
+                    d="M0 12c0 5.123 3.211 9.497 7.73 11.218c-.11-.937-.227-2.482.025-3.566c.217-.932 1.401-5.938 1.401-5.938s-.357-.715-.357-1.774c0-1.66.962-2.9 2.161-2.9c1.02 0 1.512.765 1.512 1.682c0 1.025-.653 2.557-.99 3.978c-.281 1.189.597 2.159 1.769 2.159c2.123 0 3.756-2.239 3.756-5.471c0-2.861-2.056-4.86-4.991-4.86c-3.398 0-5.393 2.549-5.393 5.184c0 1.027.395 2.127.889 2.726a.36.36 0 0 1 .083.343c-.091.378-.293 1.189-.332 1.355c-.053.218-.173.265-.4.159c-1.492-.694-2.424-2.875-2.424-4.627c0-3.769 2.737-7.229 7.892-7.229c4.144 0 7.365 2.953 7.365 6.899c0 4.117-2.595 7.431-6.199 7.431c-1.211 0-2.348-.63-2.738-1.373c0 0-.599 2.282-.744 2.84c-.282 1.084-1.064 2.456-1.549 3.235C9.584 23.815 10.77 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0S0 5.373 0 12Z"
+                  />
+                </svg>
+              </a>
+              <!-- linkedin -->
+              <a href="" class="bg-[#233c65] rounded-lg p-1">
+                <svg
+                  class="h-8 w-8"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  height="1em"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="white"
+                    fill-rule="evenodd"
+                    d="M1 2.838A1.838 1.838 0 0 1 2.838 1H21.16A1.837 1.837 0 0 1 23 2.838V21.16A1.838 1.838 0 0 1 21.161 23H2.838A1.838 1.838 0 0 1 1 21.161V2.838Zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634c3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8c-1.515 0-2.145 1.089-2.145 2.8v5.106H9.708V9.388Zm-5.5 10.403h3.208V9.25H4.208v10.54ZM7.875 5.812a2.063 2.063 0 1 1-4.125 0a2.063 2.063 0 0 1 4.125 0Z"
+                    clip-rule="evenodd"
+                  />
+                </svg>
+              </a>
+              <!-- youtube -->
+              <a href="" class="bg-[#233c65] rounded-lg p-1">
+                <svg
+                  class="h-8 w-8"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 1536 1792"
+                >
+                  <path
+                    fill="white"
+                    d="M971 1244v211q0 67-39 67q-23 0-45-22v-301q22-22 45-22q39 0 39 67zm338 1v46h-90v-46q0-68 45-68t45 68zm-966-218h107v-94H138v94h105v569h100v-569zm288 569h89v-494h-89v378q-30 42-57 42q-18 0-21-21q-1-3-1-35v-364h-89v391q0 49 8 73q12 37 58 37q48 0 102-61v54zm429-148v-197q0-73-9-99q-17-56-71-56q-50 0-93 54V933h-89v663h89v-48q45 55 93 55q54 0 71-55q9-27 9-100zm338-10v-13h-91q0 51-2 61q-7 36-40 36q-46 0-46-69v-87h179v-103q0-79-27-116q-39-51-106-51q-68 0-107 51q-28 37-28 116v173q0 79 29 116q39 51 108 51q72 0 108-53q18-27 21-54q2-9 2-58zM790 525V315q0-69-43-69t-43 69v210q0 70 43 70t43-70zm719 751q0 234-26 350q-14 59-58 99t-102 46q-184 21-555 21t-555-21q-58-6-102.5-46T53 1626q-26-112-26-350q0-234 26-350q14-59 58-99t103-47q183-20 554-20t555 20q58 7 102.5 47t57.5 99q26 112 26 350zM511 0h102L492 399v271H392V399q-14-74-61-212Q294 84 266 0h106l71 263zm370 333v175q0 81-28 118q-38 51-106 51q-67 0-105-51q-28-38-28-118V333q0-80 28-117q38-51 105-51q68 0 106 51q28 37 28 117zm335-162v499h-91v-55q-53 62-103 62q-46 0-59-37q-8-24-8-75V171h91v367q0 33 1 35q3 22 21 22q27 0 57-43V171h91z"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <!-- second columns -->
+          <div class="">
+            <h1 class="font-bold text-[22px]">BLOGGING DEALS</h1>
+            <div class="mt-5 flex flex-col space-y-4">
+              <!-- SEMrush Free Trial -->
+              <a href="" class="inline-flex items-center gap-1">
+                <svg
+                  class="h-5 w-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="black"
+                    d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
+                  />
+                  <path
+                    fill="black"
+                    d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
+                  />
+                </svg>
+                <p class="text-lg">SEMrush Free Trial</p>
+              </a>
+              <!-- Divi Discount Code -->
+              <a href="" class="inline-flex items-center gap-1">
+                <svg
+                  class="h-5 w-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="black"
+                    d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
+                  />
+                  <path
+                    fill="black"
+                    d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
+                  />
+                </svg>
+                <p class="text-lg">Divi Discount Code</p>
+              </a>
+              <!-- LinkWhisper Discount -->
+              <a href="" class="inline-flex items-center gap-1">
+                <svg
+                  class="h-5 w-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="black"
+                    d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
+                  />
+                  <path
+                    fill="black"
+                    d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
+                  />
+                </svg>
+                <p class="text-lg">LinkWhisper Discount</p>
+              </a>
+              <!-- KWFinder Discount -->
+              <a href="" class="inline-flex items-center gap-1">
+                <svg
+                  class="h-5 w-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="black"
+                    d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
+                  />
+                  <path
+                    fill="black"
+                    d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
+                  />
+                </svg>
+                <p class="text-lg">KWFinder Discount</p>
+              </a>
+            </div>
+          </div>
+          <!-- third columns -->
+
+          <div class="">
+            <h1 class="font-bold text-[22px]">NAVIGATE</h1>
+            <div class="mt-5 flex flex-col space-y-4">
+              <!-- about us -->
+              <a href="" class="inline-flex items-center gap-1">
+                <svg
+                  class="h-5 w-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="black"
+                    d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
+                  />
+                  <path
+                    fill="black"
+                    d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
+                  />
+                </svg>
+                <p class="text-lg">About Us</p>
+              </a>
+              <!-- write for us -->
+              <a href="" class="flex items-center gap-1">
+                <svg
+                  class="h-5 w-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="black"
+                    d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
+                  />
+                  <path
+                    fill="black"
+                    d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
+                  />
+                </svg>
+                <p class="text-lg">AI Story Generator</p>
+              </a>
+              <!-- AI story generator -->
+              <a href="" class="inline-flex items-center gap-1">
+                <svg
+                  class="h-5 w-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="black"
+                    d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
+                  />
+                  <path
+                    fill="black"
+                    d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
+                  />
+                </svg>
+                <p class="text-lg">AI Story Generator</p>
+              </a>
+              <!--join facebook group -->
+              <a href="" class="inline-flex items-center gap-1">
+                <svg
+                  class="h-5 w-5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  aria-hidden="true"
+                  role="img"
+                  preserveAspectRatio="xMidYMid meet"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    fill="black"
+                    d="M6.41 6L5 7.41L9.58 12L5 16.59L6.41 18l6-6z"
+                  />
+                  <path
+                    fill="black"
+                    d="m13 6l-1.41 1.41L16.17 12l-4.58 4.59L13 18l6-6z"
+                  />
+                </svg>
+                <p class="text-lg">Join Facebook Group</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <!-- copyright -->
+    <section class="bg-[#233c65] text-white">
+      <div
+        class="max-w py-2 md:text-lg text-base md:px-32 gap-2 px-5 flex-col-reverse items-center md:flex-row flex md:flex justify-between"
+      >
+        <p class="text-lg text-center">
+          Copyright © 2022 TheWPX | All Rights Reserved.
+        </p>
+        <div class="flex flex-wrap gap-2 items-start">
+          <a href="" class="text-lg">Disclosure</a>
+          <p>|</p>
+          <a href="" class="text-lg">Privacy Policy</a>
+          <p>|</p>
+          <a href="" class="text-lg">Sitemap</a>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

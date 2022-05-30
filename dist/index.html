@@ -36,19 +36,18 @@
   <body class="bg-primary-gray">
     <!-- Nabbar Start -->
     <nav
-      class="container max-w px-2 md:px-20 py-2 md:py-5 flex justify-between items-center"
+      class="container max-w px-2 md:px-20 py-2 md:py-5 flex justify-between items-center flex-wrap"
     >
       <!-- Left elements-->
       <div class="cursor-pointer">
         <img src="assets/images/thewpx.png" alt="logo" class="md:w-48 w-40" />
       </div>
 
-      <!-- Menu button -->
-      <div class="co"></div>
-
       <!-- Right elements -->
-      <div class="md:flex items-center relative hidden">
-        <ul class="flex items-center gap-3 font-bold text-xl text-primary-blue">
+      <div class="flex items-center relative">
+        <ul
+          class="hidden md:flex items-center gap-1 font-bold text-base text-primary-blue"
+        >
           <li>
             <a class="right_nav" href="#">Home</a>
           </li>
@@ -68,6 +67,42 @@
             <a class="right_nav" href="#">Deals</a>
           </li>
         </ul>
+
+        <div class="flex flex-wrap">
+          <!-- search icon  -->
+          <ul>
+            <li>
+              <a class="right_nav" href="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
+              </a>
+            </li>
+          </ul>
+
+          <!-- Menu button -->
+          <div
+            class="flex md:hidden text-primary-blue cursor-pointer items-center justify-center font-bold text-lg gap-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              role="img"
+              width="1em"
+              height="1em"
+              preserveAspectRatio="xMidYMid meet"
+              viewBox="0 0 32 32"
+            >
+              <path
+                fill="none"
+                stroke="currentcolor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M4 8h24M4 16h24M4 24h24"
+              />
+            </svg>
+            <h1>Menu</h1>
+          </div>
+        </div>
       </div>
     </nav>
     <!-- Navbar end -->

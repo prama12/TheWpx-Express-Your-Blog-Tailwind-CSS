@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-html-img-to-picture": "^1.0.2",
+    "tailwindcss": "^3.0.24"
+  },
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/tailwind.css -o ./dist/output.css --watch"
+  }
+}
